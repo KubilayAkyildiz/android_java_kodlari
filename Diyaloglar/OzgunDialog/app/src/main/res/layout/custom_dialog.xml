@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f4bf42">
+
+  <EditText
+      android:id="@+id/etxtValue"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:layout_alignParentTop="true"
+      android:textColor="#e52253" />
+
+  <Button
+      android:id="@+id/btnOK"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Tamam"
+      android:background="#f46542"
+      android:layout_below="@+id/etxtValue"
+      android:layout_alignRight="@+id/etxtValue"
+      android:layout_alignEnd="@+id/etxtValue" />
+
+  <Button
+      android:id="@+id/btnCancel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="İptal"
+      android:background="#f44242"
+      android:layout_below="@+id/etxtValue"
+      android:layout_alignLeft="@+id/etxtValue"
+      android:layout_alignStart="@+id/etxtValue" />
+
+</RelativeLayout>
