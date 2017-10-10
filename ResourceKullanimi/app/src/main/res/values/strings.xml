@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">ResourceKullanimi</string>
+  <string name="button_name">Örnek Button</string>
+  <string name="title">You have to use English!</string>
+  <string-array name="array_names">
+    <item>A</item>
+    <item>B</item>
+    <item>C</item>
+  </string-array>
+</resources>
