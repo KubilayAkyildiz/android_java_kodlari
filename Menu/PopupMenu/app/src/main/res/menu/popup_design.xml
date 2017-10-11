@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/miRed"
+      android:title="Kırmızı"
+      android:onClick="miRed_onClick">
+  </item>
+
+  <item
+      android:id="@+id/miGreen"
+      android:title="Yeşil"
+      android:onClick="miGreen_onClick">
+  </item>
+
+  <item
+      android:id="@+id/miBlue"
+      android:title="Mavi"
+      android:onClick="miBlue_onClick">
+  </item>
+</menu>

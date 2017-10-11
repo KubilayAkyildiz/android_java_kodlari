@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <!--
+    app:showAsAction Özellikleri:
+    always: Eleman her daim ActionBar üzerinde gösterilir.
+    ifRoom: Eğer ActionBar'da yer varsa eleman orada gösterilir,
+            ActionBar'da yer yoksa eleman menüde gösterilir.
+    never: Eleman her daim menü üzerinde gösterilir.
+  -->
+
+  <item
+      android:id="@+id/miOpen"
+      android:title="Aç"
+      app:showAsAction="always">
+  </item>
+
+  <item
+      android:id="@+id/miSave"
+      android:title="Kaydet"
+      app:showAsAction="never">
+  </item>
+
+  <item
+      android:id="@+id/miSaveAs"
+      android:title="Farklı Kaydet"
+      app:showAsAction="never">
+  </item>
+
+  <item
+      android:id="@+id/miEdit"
+      android:title="Düzen"
+      app:showAsAction="never">
+    <!-- İç içe menü oluşturabiliriz -->
+    <menu>
+      <item
+        android:id="@+id/miCut"
+        android:title="Kes"
+        app:showAsAction="never"></item>
+
+      <item
+          android:id="@+id/miCopy"
+          android:title="Kopyala"
+          app:showAsAction="never"></item>
+
+      <item
+          android:id="@+id/miPaste"
+          android:title="Yapıştır"
+          app:showAsAction="never"></item>
+    </menu>
+  </item>
+
+  <item
+      android:id="@+id/miExit"
+      android:title="Çık"
+      app:showAsAction="never">
+  </item>
+</menu>
