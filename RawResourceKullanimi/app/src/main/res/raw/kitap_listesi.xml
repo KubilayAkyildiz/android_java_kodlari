@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<kitaplar>
+  <kitap>
+    <isim>Object Oriented Programming in C++</isim>
+    <yazar>Robert Lafore</yazar>
+    <sayfa>744</sayfa>
+  </kitap>
+  <kitap>
+    <isim>Effective Modern C++</isim>
+    <yazar>Scott Meyers</yazar>
+    <sayfa>334</sayfa>
+  </kitap>
+  <kitap>
+    <isim>Compilers: Principles, Techniques, and Tools</isim>
+    <yazar>Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey Ullman</yazar>
+    <sayfa>1000</sayfa>
+  </kitap>
+  <kitap>
+    <isim>Operating Systems a Concept Based Approach</isim>
+    <yazar>Dhananjay Dhamdhere</yazar>
+    <sayfa>848</sayfa>
+  </kitap>
+  <kitap>
+    <isim>Operating Systems Design and Implementation</isim>
+    <yazar>Andrew S. Tanenbaum</yazar>
+    <sayfa>1080</sayfa>
+  </kitap>
+  <kitap>
+    <isim>Operating System Concepts</isim>
+    <yazar>Abraham Silberschatz, Peter Baer Galvin, Greg Gagne</yazar>
+    <sayfa>992</sayfa>
+  </kitap>
+  <kitap>
+    <isim>Modern Operating Systems</isim>
+    <yazar>Andrew S. Tanenbaum, Herbert Bos</yazar>
+    <sayfa>1136</sayfa>
+  </kitap>
+</kitaplar>
